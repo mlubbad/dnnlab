@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
 Transfer Learning for Computer Vision
 ==============================================
 **Author**: `Mohammed Lubbad <https://mlubbad.github.io>`_
@@ -23,21 +21,19 @@ These two major transfer learning scenarios look as follows:
    for all of the network except that of the final fully connected
    layer. This last fully connected layer is replaced with a new one
    with random weights and only this layer is trained.
-"""
 
-"""
-We provide a code for trainning common ConvNets such like "vgg, resnet, 
-alexnet, densenet, efficientnet, googlenet, inception, mnasnet, mobilenet,
-squeezenet, resnext, swintransformer, visiontransformer, wideresnet, ..etc"
+**Notes**
+- We provide a code for trainning common ConvNets such like "vgg, resnet, 
+  alexnet, densenet, efficientnet, googlenet, inception, mnasnet, mobilenet,
+  squeezenet, resnext, swintransformer, visiontransformer, wideresnet, ..etc"
 
-You can find each ConvNet in a seperated directory, containning two python
-files "xxx_train.py", "xxx_test.py".
+- You can find each ConvNet in a seperated directory, containning two python
+  files "xxx_train.py", "xxx_test.py".
 
 **Test**
 Will calculate for you the following:
 - Confusion Matrix
 - Classification Report
-"""
 
 **Get Started**
 - Clone the repository 
