@@ -1,9 +1,9 @@
 Transfer Learning for Computer Vision
 ==============================================
-**Author**: `Mohammed Lubbad <https://mlubbad.github.io>`_
+**Author**: `Mohammed Lubbad <https://mlubbad.github.io>`
 In this repository, you will learn how to train a convolutional neural network for
 image classification using transfer learning. You can read more about the transfer
-learning at `cs231n notes <https://cs231n.github.io/transfer-learning/>`__
+learning at `cs231n notes <https://cs231n.github.io/transfer-learning/>`
 Quoting these notes,
     In practice, very few people train an entire Convolutional Network
     from scratch (with random initialization), because it is relatively
